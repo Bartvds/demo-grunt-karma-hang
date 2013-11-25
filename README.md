@@ -8,13 +8,6 @@ From both folders install `grunt` + `grunt-karma`
     
 Run demos:
 
-    // do nothing and pass
-    $ grunt
-
-    // wait async, then pass task
-    $ grunt build
-    
-    // wait async, then fail task
     $ grunt test
 
 These will all exit as expected for both versions.
