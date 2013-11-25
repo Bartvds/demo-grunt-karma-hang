@@ -19,8 +19,8 @@ Run demos:
 
 These will all exit as expected for both versions.
 
-Now redirect output:
+Now redirect output and see if it hangs:
 
 	$ grunt build>foo.txt
 
-It will hang indefinitely on `grunt 0.4.2` but pass on `grunt 0.4.1`
+
